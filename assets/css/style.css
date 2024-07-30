@@ -1,0 +1,56 @@
+#menu li{
+    display: inline;
+    padding-left: 20px;
+    
+}
+
+#menu a {
+    text-decoration: none;
+    color: rgb(86, 95, 63);
+    font-size: 20px;
+}
+
+#menu a:hover {
+    color: rgb(241, 104, 25);
+    
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+p {
+   padding: 30px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+}
+
+h1, h2, h3 {
+    font-family: Verdana;
+    text-align: center;
+}
+
+h3 {
+    font-size: 15px; 
+}
+
+h2 {
+    color: rgb(241, 104, 25);
+}
+
+.video {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
