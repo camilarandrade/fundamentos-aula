@@ -15,7 +15,7 @@
     
     <h2>Cristo Redentor</h2>
     <div class="container">
-    <img src="assets/cristo-redentor.jpg">
+    <img class="imagem" src="assets/cristo-redentor.jpg" onmousemove="ImagemZoom()" onmouseout="ImagemNormal()">
     <p>Literalmente de braços abertos, o Cristo Redentor, no morro do Corcovado, recebe diariamente milhares de turistas de diversos lugares do mundo. É necessário subir 700 metros do nível do mar para, enfim, chegar ao pico onde está a estátua que é cartão postal da cidade. O Cristo Redentor fica dentro do Parque Nacional da Tijuca e existem duas maneiras de chegar: nas vans autorizadas do Paineiras, que saem de diversos pontos do Rio, e no trem do Corcovado.</p></div>
 
         <h2>Pão de açúcar</h2>
@@ -39,7 +39,8 @@
         Fique atento! Na alta temporada de verão, muita gente procura um bar com cerveja gelada para se refrescar do calor carioca e a disponibilidade de mesas pode ficar limitada, com necessidade de reservas.</p></div>
 
         <h2>Não vá para o Rio sem antes ver esse vídeo: </h2>
-        <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/uGwsDn4RsDs?si=Cd3O584Ms2EL5ZeX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-    
+        <div class="video"><iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/uGwsDn4RsDs?si=Cd3O584Ms2EL5ZeX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen onmousemove="VideoZoom()" onmouseout="VideoNormal()"></iframe></div>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
